@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import ProjectCard from "./ProjectCard";
 
 const Project = () => {
-  const projects = [
+  const projects = useMemo(() => [
     {
       title: "Wonder Lust – Hotel Listing System",
       description: "Wonder Lust – Hotel Listing System is a web platform designed for travelers to explore and review accommodations, including houses, villas, farmhouses, and hotels. It offers a user-friendly interface for searching listings, viewing detailed property information, and submitting reviews. The system efficiently manages property details, user data, and reviews to enhance the booking experience.",
@@ -29,7 +29,7 @@ const Project = () => {
       sourceCodeUrl: "https://github.com/gausoddin-pirjade/Simon-Says-Game",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
-  ];
+  ], []);
 
   const [visibleProjects, setVisibleProjects] = useState(Array(projects.length).fill(false));
 

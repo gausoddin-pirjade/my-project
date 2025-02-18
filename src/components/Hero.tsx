@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
@@ -8,7 +9,7 @@ const Hero = () => {
         
         {/* Right Image (comes first on mobile) */}
         <div className="flex-1 flex justify-center order-1 md:order-2">
-          <img src="/profile.png" alt="Profile" className="h-52 md:h-80 object-contain" />
+          <Image src="/profile.png" alt="Profile" className="h-52 md:h-80 object-contain" />
         </div>
 
         {/* Left Content (comes after image on mobile) */}

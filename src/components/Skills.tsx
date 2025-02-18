@@ -52,7 +52,7 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-12">My Skills</h2>
         <p className="text-gray-700 dark:text-gray-200 mb-8 md:mb-12 text-lg md:text-2xl">
-          A brief overview of the technologies and skills I'm familiar with.
+          A brief overview of the technologies and skills I&apos;m familiar with.
         </p>
         <div className="space-y-8 md:space-y-12">
           {skillCategories.map((category, index) => (
