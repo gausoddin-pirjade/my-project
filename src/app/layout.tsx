@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Gausoddin Pirjade Portfolio",
-  description: "Developed by Gaushodin Pirjade",
+  description: "Developed by Gausoddin Pirjade",
+  icons: {
+    icon: "/favicon.png", // Path to your favicon inside the public folder
+  },
 };
 
 export default function RootLayout({

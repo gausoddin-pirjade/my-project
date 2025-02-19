@@ -1,5 +1,5 @@
 "use client";
-import { FaDev } from "react-icons/fa6";
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 
 const sections = [
@@ -57,7 +57,12 @@ const Navbar = () => {
       <div className="max-w-screen-xl w-4/5 rounded-lg bg-gray-200 dark:bg-transparent bg-opacity-50 backdrop-blur-md flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="text-4xl font-bold">
-            <FaDev style={{ color: '#52D0A3' }} /> {/* Change the color here */}
+            <Image
+              src="/favicon.png" // Path to your favicon inside the public folder
+              alt="Gausoddin Pirjade" // Alt text for your image
+              width={50} // Desired width of your image in pixels
+              height={50} // Desired height of your image in pixels
+            />
           </div>
           <button
             className="text-gray-700 dark:text-white md:hidden"
