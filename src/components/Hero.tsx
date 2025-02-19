@@ -9,7 +9,7 @@ const Hero = () => {
         
         {/* Right Image (comes first on mobile) */}
         <div className="flex-1 flex justify-center order-1 md:order-2">
-          <Image src="/profile.png" alt="Profile" className="h-52 md:h-80 object-contain" />
+          <Image src="/profile.png" alt="Profile" className="h-52 md:h-80 object-contain" width={320} height={320} />
         </div>
 
         {/* Left Content (comes after image on mobile) */}
