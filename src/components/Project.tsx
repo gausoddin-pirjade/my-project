@@ -17,7 +17,7 @@ const Project = () => {
       title: "InShare File-Sharing System",
       description: "InShare – File-Sharing System is a web-based platform that enables users to upload files, generate shareable links, and send them via email. It features a user-friendly interface for seamless file sharing. Additionally, SMTP integration ensures secure email functionality, allowing users to share file links effortlessly.",
       imageUrl: "/projects/inshare.png",
-      liveDemoUrl: "https://gausoddin-pirjade.github.io/Inshare-file-Sharing-Frontend/",
+      liveDemoUrl: "https://gausoddin-pirjade.github.io/In-share-file-sharing/",
       sourceCodeUrl: "https://github.com/gausoddin-pirjade/In-share-file-sharing",
       technologies: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript", "SMTP"],
     },
