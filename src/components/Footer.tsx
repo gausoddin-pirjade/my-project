@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="flex gap-6 mt-4 md:mt-0">
           <a href="https://github.com/gausoddin-pirjade" className="text-white text-2xl bg-gray-700 p-2 rounded-lg hover:bg-gray-600" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           <a href="https://linkedin.com/in/gausoddin-pirjade" className="text-white text-2xl bg-gray-700 p-2 rounded-lg hover:bg-gray-600" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
-          <a href="mailto:gausoddinpirjade@gmail.com" className="text-white text-2xl bg-gray-700 p-2 rounded-lg hover:bg-gray-600"><MdOutlineMarkEmailUnread /></a>
-          <a href="https://leetcode.com/u/gausoddin_pirjade" className="text-white text-2xl bg-gray-700 p-2 rounded-lg hover:bg-gray-600"><SiLeetcode /></a>
+          <a href="mailto:gausoddinpirjade@gmail.com" className="text-white text-2xl bg-gray-700 p-2 rounded-lg hover:bg-gray-600" target="_blank" rel="noopener noreferrer"><MdOutlineMarkEmailUnread /></a>
+          <a href="https://leetcode.com/u/gausoddin_pirjade" className="text-white text-2xl bg-gray-700 p-2 rounded-lg hover:bg-gray-600" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
         </div>
       </div>
     </footer>

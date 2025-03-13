@@ -16,6 +16,8 @@ const Contact = () => {
           <a
             href="mailto:gausoddinpirjade@gmail.com"
             className="text-green-400 text-lg md:text-xl font-semibold block"
+            target="_blank"
+            rel="noreferrer"
           >
             gausoddinpirjade@gmail.com
           </a>

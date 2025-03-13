@@ -100,6 +100,8 @@ const Navbar = () => {
                     handleClick(section.id);
                     setIsMenuOpen(false);
                   }}
+                  target='_blank'
+                  rel='noreferrer'
                   className={`block py-2 px-6 text-xl rounded-xl transform transition-all duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-green-500 ${
                     activeSection === section.id ? 'text-green-500' : ''
                   }`}
