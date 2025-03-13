@@ -37,7 +37,7 @@ const Hero = () => {
             <a href="#contact" className="bg-black text-white dark:bg-white dark:text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-700 dark:hover:bg-gray-200 transition">
               CONTACT ME HERE →
             </a>
-            <a href="/Gausoddin Pirjade.pdf" className="bg-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-600 transition" target="_blank">
+            <a href="/Gausoddin Pirjade.pdf" className="bg-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-600 transition" target="_blank" rel="noreferrer">
               DOWNLOAD Resume ⬇
             </a>
           </div>
